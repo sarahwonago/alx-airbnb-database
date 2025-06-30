@@ -1,3 +1,6 @@
+![ER Diagram](https://dbdiagram.io/d/AirbnbDBSchema-68628306f413ba3508878480)
+
+
 ## Relationship
 [User]
  - user_id (PK)
