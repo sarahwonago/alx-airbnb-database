@@ -1,3 +1,17 @@
+## 🛠️ Project Overview
+
+This is the database design for our Airbnb-style project.
+
+## 📊 Database Schema
+
+The database schema is visualized using [dbdiagram.io](https://dbdiagram.io/).
+
+👉 [Click here to view the ER Diagram](https://dbdiagram.io/d/AirbnbDBSchema-68628306f413ba3508878480)
+
+It includes Users, Properties, Bookings, Payments, Reviews, and Messages.
+
+
+
 ## Relationship
 [User]
  - user_id (PK)
