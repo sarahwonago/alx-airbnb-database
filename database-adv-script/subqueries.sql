@@ -1,3 +1,4 @@
+-- Non-Correlated Subquery: Properties with average rating > 4.0
 SELECT 
     p.property_id,
     p.name,
@@ -12,7 +13,7 @@ GROUP BY
 HAVING 
     AVG(r.rating) > 4.0;
 
-
+-- Correlated Subquery: Users with more than 3 bookings
 SELECT
     u.user_id,
     u.first_name,
